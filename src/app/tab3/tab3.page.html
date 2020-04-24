@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Classes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,41 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Classes</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <h1>List of the core classes within D&D</h1>
+  <ul>
+    <li *ngFor="let name of classNames" >
+      <p>{{name.name}}</p>
+    </li>   
+  </ul>
+
+  <h3>Barbarian</h3>
+  <p>Barbarians are one of the most savage amoung the majority of the other classes. With the innate ability to go into a fit of rage increasing their resistance to the elements and physical damage. They see any type of civilisation as a sign of weakness surrounded and protected by wall and would much more prefer to be out in the wild nature living off of their instincts.</p>
+  <h3>Bard</h3>
+  <p>Bards the royal jester, the fool and yet a jack of all trades. With the ability to inspire others within the party, attack with both magick and physical damage they are always welcomed. With an unnaturally high charisma and the ability to charm almost any creature they have created quite a stereotype for themselves. Choosing a bard class allows for endless possibilities and many ways to make riches.</p>
+  <h3>Cleric</h3>
+  <p>The Cleric one that follows the path of religion and faith. Players that choose this class tend to stay within the lawful alignments of how they act and compose themselves. Following their ideals sometimes to a point of insanity. They recieve blessings and magick from their chosen deity/church and use this new found power to help those in need.</p>
+  <h3>Druid</h3>
+  <p>Druids are one of the stranger classes as they have devoted their lifes to nature. With this devotion they gain the ability to transform into an animal, speak to animals and plants and use magick.</p>
+  <h3>Fighter</h3>
+  <p>Fighter like the bard is a class that has many choices as to what you would like to play as: they are well-rounded specialists and can choose an archetype. These archetypes come in the form of archery, defense, dueling, great-weapon fighting, protection and two-weapon fighting. Each of these allow the player to customise their character to their prefered playstyle.</p>
+  <h3>Monk</h3>
+  <p>Monks the enlightened ones. Monks make careful study of a magickal energy that most monastic traditions call ki. This energy is an element of the magick that suffuses the multiverse—specifically, the element that flows through living bodies. Monks harness this power within themselves to create magickal effects and exceed their bodies’ physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes. </p>
+  <h3>Paladin</h3>
+  <p>Paladins the rightous heros the protecters of the weak and banisher of the evil. Players that choose the paladin class should be reminded that their player is usually on a holy quest to defeat an unspeakable evil. They have achieved such a high level above other mortals that they have gained the ability to use magick.</p>
+  <h3>Ranger</h3>
+  <p>Rangers the stealthy hunters of the woodlands with the ability to trace their prey and subdue them with either magick or physical damage. Rangers are well known for their animal companions that aid in them in the hunt. Players that would like to bring their real life pet into an adventure should consider choosing this class.</p>
+  <h3>Rogue</h3>
+  <p>Rogue the mercenary, assassin, the theif with sticky fingers. These characters are usually asked to join a party with the hopes of making large sums of money or for the thrill of defeating powerful enemies. With an uncanny skill of disappearing into the shadows and surprise attacking unsuspecting enemies. These players are a vital part to a teams success if you don't want to be caught.</p>
+  <h3>Sorcerer</h3>
+  <p>Sorcerers the ones that have it naturally. Magick is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magick of dragons. Others carry a raw, uncontrolled magic within them, a chaotic storm that manifests in unexpected ways.</p>
+  <h3>Warlock</h3>
+  <p>Warlocks similar to the cleric, both of them the opposite sides of the same coin. Warlocks gain their powers from making a pact with a great demonic creature that has surpassed the mundane plane of existance. Offering up their lives sometimes in pursuit of power to rule over others and bend them to their every will.</p>
+  <h3>Wizard</h3>
+  <p>Wizards are the 'nerd' of the Dungeons and Dragons world. They are great scholars that have devoted their lives to studying the ancient mystical scrolls to attain magick power. While not fit for the frontlines of a fight they surpass others with their support and offensive power that can clear a room quickly.</p>
+  <h4>References</h4>
+  <p>https://www.dndbeyond.com/classes</p>
 </ion-content>
